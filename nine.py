@@ -1,0 +1,9 @@
+english=int(input('enter english marks:'))
+math=int(input('enter math marks:'))
+computer=int(input('enter computer marks:'))
+chemistry=int(input('enter chemistry marks:'))
+physics=int(input('enter physics marks:'))
+total =english+ math+ computer+ chemistry+physics
+average = total/5
+print("total marks=" , total)
+print("average marks=", average)
